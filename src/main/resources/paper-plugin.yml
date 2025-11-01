@@ -1,8 +1,14 @@
 name: MRPG
 version: '1.0.0'
 main: net.tastypommeslul.mRPG.MRPG
+bootstrapper: net.tastypommeslul.mRPG.MRPGBootStrapper
 api-version: '1.21'
 prefix: SomeMinecraftRPG
 load: STARTUP
 authors: [ TastyPommesLul ]
 description: A Minecraft RPG plugin
+
+dependencies:
+  server:
+    MCKotlin-Paper:
+      required: true
